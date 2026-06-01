@@ -139,8 +139,21 @@
           <label class="field-label">受講番号 <span class="badge-required">必須</span></label>
           <select name="course_num" required>
             <option value="">-- 選択してください --</option>
-            <option value="未確定（仮）">未確定（仮）</option>
-            ${Array.from({length:20},(_,i)=>`<option value="${i+1}">${i+1}</option>`).join('')}
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
           </select>
         </div>
 
@@ -189,7 +202,7 @@
 
 <script>
 // ★ Apps Script デプロイ後にURLをここに貼り付けてください
-const GAS_URL = "https://script.google.com/macros/s/AKfycbxTH9cjyphrWehVLG6MvflDGJETNJjyiKWytCb6oQhfyUhmOnH-b8JB1l4gGTl1sWoo/exec";
+const GAS_URL = "https://script.google.com/macros/s/ここにデプロイURLを貼り付け/exec";
 const FORM_TYPE = "note";
 
 function compressImage(file) {
